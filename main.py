@@ -7,6 +7,7 @@ from src import contributors
 from config import PREMIUM, ALLOW_ADS
 import os
 
+# Flash quickstart guide https://flask.palletsprojects.com/en/2.0.x/quickstart/
 app = Flask(__name__)
 app.route = add_statistics(app.route)
 
@@ -203,13 +204,17 @@ def show_contributors():
 if __name__ == '__main__':
     SECRET_KEY = os.getenv('SECRET_KEY') or os.urandom(12)
     HOST = os.getenv('HOST') or '127.0.0.1'
-    PORT = os.getenv('PORT') or '5000'
+    PORT = os.getenv('PORT') or '8090'
+    print(HOST,PORT)
 
     app.config['SECRET_KEY'] = SECRET_KEY
 
     if HOST == '127.0.0.1':
+        print("home")
         app.run(debug=True, port=int(PORT))
     elif HOST == 'docker':
-        app.run(host='0.0.0.0', port=(os.getenv('PORT') or '80'))
+        print("docker")
+        app.run(debug=True,host='0.0.0.0', port=(os.getenv('PORT') or '80'))
     else:
-        app.run(host=HOST, port=PORT)
+        print ("default")
+        app.run(debug=True,host=HOST, port=PORT)
