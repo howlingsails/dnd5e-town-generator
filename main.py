@@ -29,19 +29,19 @@ def town_menu():
     else:
         return render_template('index.html', is_premium=PREMIUM)
 
-@app.route('/town/<town_name>/<size>')
+@app.route('/town/<town_name>/<size>/<mainrace>/<biome>/<isolationLevel>/')
 @correct_size_only
-def show_town(town_name, size):
-    return render_template('town.html', town=Village(town_name, size))
+def show_town(town_name, size,mainrace,biome,isolationLevel):
+    return render_template('town.html', town=Village(town_name, size,mainrace,biome,isolationLevel))
 
-@app.route('/<town_name>/<size>/store/<store_type>')
+@app.route('/<town_name>/<size>/<mainrace>/<biome>/<isolationLevel>/store/<store_type>')
 def show_all_stores(town_name, size, store_type):
     return render_template('all-of-store.html',
             town=Village(town_name, size),
             htype=store_type
         )
 
-@app.route('/<town_name>/<size>/class/<class_name>')
+@app.route('/<town_name>/<size>/<mainrace>/<biome>/<isolationLevel>/class/<class_name>')
 def show_people_of_class(town_name, size, class_name):
     town = Village(town_name, size)
     try:
@@ -64,7 +64,7 @@ def show_people_of_class(town_name, size, class_name):
                                 )
                         )
 
-@app.route('/<town_name>/<size>/class/<class_name>/<int:page>')
+@app.route('/<town_name>/<size>/<mainrace>/<biome>/<isolationLevel>/class/<class_name>/<int:page>')
 def show_people_of_class_at_page(town_name, size, class_name, page):
     town = Village(town_name, size)
     try:
@@ -93,7 +93,7 @@ def show_people_of_class_at_page(town_name, size, class_name, page):
                                 )
                         )
 
-@app.route('/<town_name>/<size>/npc/<int:neighbourhood>/<class_name>/<int:house>/<int:person>')
+@app.route('/<town_name>/<size>/<mainrace>/<biome>/<isolationLevel>/npc/<int:neighbourhood>/<class_name>/<int:house>/<int:person>')
 def get_npc(town_name, size, neighbourhood, class_name, house, person):
     seed = (PASSWORD, town_name, size, neighbourhood, class_name, house, person)
     town = Village(town_name, size)
