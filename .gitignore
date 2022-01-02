@@ -125,3 +125,4 @@ dmypy.json
 data/logs/
 data/traffic.log
 *.log
+data/traffic.log

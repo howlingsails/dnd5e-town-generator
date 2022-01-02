@@ -9,4 +9,6 @@ COPY . .
 
 ENV HOST='docker'
 
+EXPOSE 80
+
 CMD ["python", "main.py"]

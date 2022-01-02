@@ -1,4 +1,4 @@
-SECRET = "CHANGE-ME"
+SECRET = "helpthedm"
 # Change the SECRET if you don't want your towns to be unique.
 # This is useful for DMs, because your players can only view your generated towns
 # if they know what the SECRET was that you used.
@@ -12,7 +12,7 @@ SECRET = "CHANGE-ME"
 
 
 
-PREMIUM = False
+PREMIUM = True
 # Set PREMIUM to False if:
 #   - You don't want others to overload the program;
 #   - You want to allow multiple users to use this program simultaneously;
