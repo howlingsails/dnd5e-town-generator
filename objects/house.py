@@ -65,6 +65,8 @@ class House:
     
     @cached_property
     def race(self):
+        print('race seed:',self.seed)
+        
         return race.race(self.seed + ('race',))
 
     def find(self, obj_type, seed):

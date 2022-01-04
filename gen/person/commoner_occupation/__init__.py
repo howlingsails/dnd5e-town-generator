@@ -12,8 +12,9 @@ def get_occupation(seed):
     random.seed(seed)
 
     r = random.random()
-
+    print('r:'+str(r))
     for occ in OCCUPATIONS:
+        print('occ:'+str(OCCUPATIONS[occ])+' occ:'+occ)
         if r < OCCUPATIONS[occ]:
             return occ
     else:
