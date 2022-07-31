@@ -7,7 +7,7 @@ from gen.person import (
 from src.cache import cached_property
 from gen.house import schedule
 from flask import url_for
-
+import subprocess
 class Person:
     def __init__(self, seed, house):
         self.seed = seed
@@ -16,11 +16,16 @@ class Person:
 
         self.race = house.race
         self.gender = house.genders[self.fi]
-
+    
         self.is_mature = (self.fi < 2)
     
     def __html__(self):
         return f'<a href="{url_for("get_npc", **self.url_package)}">{self.name}</a>'
+
+    def decription(self):
+        result = subprocess.run(['dnd', 'dna'], stdout=subprocess.PIPE)
+        result.stdout
+
 
     @cached_property
     def url_package(self):

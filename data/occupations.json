@@ -71,12 +71,6 @@
         "family": true,
         "shop": null
     },
-    "Warlock": {
-        "n": 5,
-        "e": 0.15,
-        "family": false,
-        "shop": null
-    },
     "Wizard": {
         "n": 5,
         "e": 0.75,
@@ -102,13 +96,56 @@
         "shop": "General Store"
     },
     "Barkeep": {
-        "n": 1,
+        "n": 10,
         "e": 1,
         "family": true,
         "shop": "Tavern"
     },
+    "Cloth Merchant": {
+        "n": 10,
+        "e": 1,
+        "family": true,
+        "shop": "Cloth Mill"
+    },
+    "Leather Merchant": {
+        "n": 10,
+        "e": 0.2,
+        "family": true,
+        "shop": "Tanner"
+    },
+    "Shoe Merchant": {
+        "n": 50,
+        "e": 1,
+        "family": true,
+        "shop": "cobbler"
+    },
+    "Grain Merchant": {
+        "n": 10,
+        "e": 0.5,
+        "family": true,
+        "shop": "Grain Mill"
+    },
+    "Banker": {
+        "n": 100,
+        "e": 0.1,
+        "family": true,
+        "shop": "Bank"
+    },
+    "Ore Merchant": {
+        "n": 10,
+        "e": 0.1,
+        "family": true,
+        "shop": "Ore Lot"
+    },
+    "Spice Merchant": {
+        "n": 10,
+        "e": 0.3,
+        "family": true,
+        "shop": "Glass Shop"
+    },
+
     "Magic merchant": {
-        "n": 8,
+        "n": 80,
         "e": 0.5,
         "family": true,
         "shop": "Magic Store"
