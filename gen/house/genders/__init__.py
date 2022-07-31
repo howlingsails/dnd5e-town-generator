@@ -11,7 +11,7 @@ def get_genders(seed, size):
     gen = ['Male', 'Female']
     random.shuffle(gen)
 
-    if random.random() < 0.1:
+    if random.random() < 0.2:
         # Gay family
         gen[0] = gen[1]
     
