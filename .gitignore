@@ -127,5 +127,5 @@ data/traffic.log
 *.log
 data/traffic.log
 data/logs/counter.json
-#traffic.log
-#logs/counter.json
+traffic.log
+logs/counter.json
