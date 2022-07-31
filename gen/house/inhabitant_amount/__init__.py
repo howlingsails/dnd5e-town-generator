@@ -36,7 +36,7 @@ def get_inhabitants(seed, house_type, race):
         return 1
 
 def extra_child():
-    if random.random() < 0.6:
+    if random.random() < 0.4:
         return 0
     else:
         return 1 + extra_child()
