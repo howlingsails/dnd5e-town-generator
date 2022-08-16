@@ -54,7 +54,11 @@ def new_period_arrived():
         return date != now
 
 def get_new_session_user():
-    i = json.load(open('data/logs/counter.json', 'r'))
+    try:
+        i = json.load(open('data/logs/counter.json', 'r'))
+    except BaseException:
+        i = 0
+        pass
     json.dump(i+1, open('data/logs/counter.json', 'w'))
 
     return f'#{i}'
