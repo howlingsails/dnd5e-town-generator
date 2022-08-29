@@ -1,0 +1,835 @@
+{
+    "dynasty": {
+      "version": "0.4.8",
+      "theme": "asian",
+      "race": "Elf",
+      "inheritance": "ambilineality",
+      "startingYear": 350,
+      "yearFormat": "BCE",
+      "name": "Zhan",
+      "generations": {
+        "regnant": "56e55ce0-24eb-11ed-80f1-d5095e102791",
+        "consort": "56e5ab00-24eb-11ed-80f1-d5095e102791",
+        "heir": {
+          "regnant": "56e62030-24eb-11ed-80f1-d5095e102791",
+          "consort": "56e66e50-24eb-11ed-80f1-d5095e102791",
+          "heir": {
+            "regnant": "56e69560-24eb-11ed-80f1-d5095e102791",
+            "consort": "56e6bc70-24eb-11ed-80f1-d5095e102791"
+          }
+        }
+      },
+      "persons": {
+        "56e55ce0-24eb-11ed-80f1-d5095e102791": {
+          "version": "0.8.6",
+          "theme": "asian",
+          "name": "Homena",
+          "age": 466,
+          "ageGroup": "middle",
+          "type": "NPC",
+          "alignment": "Lawful Evil",
+          "klass": "Paladin",
+          "background": "Criminal",
+          "specialty": "Blackmailer",
+          "personalityTraits": [
+            "I am always calm, no matter what the situation. I never raise my voice or let my emotions control me.",
+            "I would rather make a new friend than a new enemy."
+          ],
+          "ideal": "Greed. I will do whatever it takes to become wealthy.",
+          "bond": "My ill-gotten gains go to support my family.",
+          "flaw": "When faced with a choice between money and my friends, I usually choose the money.",
+          "mannerism": "I mispronounce common words.",
+          "talent": "I'm a natural with problem solving.",
+          "trait": "Angry",
+          "characteristic": "lanky",
+          "DNA": {
+            "uuid": "56e55ce0-24eb-11ed-80f1-d5095e102791",
+            "race": "Elf",
+            "gender": "male"
+          },
+          "birthYear": 350,
+          "deathYear": 816,
+          "marriageYear": 482,
+          "issue": [
+            "56e62030-24eb-11ed-80f1-d5095e102791",
+            "56e64740-24eb-11ed-80f1-d5095e102791"
+          ],
+          "spouseID": "56e5ab00-24eb-11ed-80f1-d5095e102791",
+          "description": "Elf with short build. They have a chiseled face with large silver eyes and  plucked eyebrows with a long nose and a straight teeth mouth. Their hair is shoulder-length and silver in color."
+        },
+        "56e5ab00-24eb-11ed-80f1-d5095e102791": {
+          "version": "0.8.6",
+          "theme": "asian",
+          "name": "Ruangt",
+          "age": 571,
+          "ageGroup": "middle",
+          "type": "NPC",
+          "alignment": "Lawful Neutral",
+          "klass": "Rogue",
+          "background": "Sage",
+          "specialty": "Astronomer",
+          "personalityTraits": [
+            "I am horribly, horribly awkward in social situations.",
+            "I face problems head-on. A simple, direct solution is the best path to success."
+          ],
+          "ideal": "Logic. Emotions must not cloud our logical thinking.",
+          "bond": "My life's work is a series of tomes related to a specific field of lore.",
+          "flaw": "I overlook obvious solutions in favor of complicated ones.",
+          "mannerism": "I use colorful words.",
+          "talent": "I'm an expert at sewing.",
+          "trait": "Submissive",
+          "characteristic": "heavily pierced",
+          "DNA": {
+            "uuid": "56e5ab00-24eb-11ed-80f1-d5095e102791",
+            "race": "Elf",
+            "gender": "female"
+          },
+          "birthYear": 287,
+          "deathYear": 858,
+          "marriageYear": 482,
+          "spouseID": "56e55ce0-24eb-11ed-80f1-d5095e102791",
+          "issue": [
+            "56e62030-24eb-11ed-80f1-d5095e102791",
+            "56e64740-24eb-11ed-80f1-d5095e102791"
+          ],
+          "description": "Elf with short build. They have a chiseled face with fringed long lash emerald eyes and  trim eyebrows with a straight nose and a gleaming white teeth mouth. Their hair is bouncy and brown in color."
+        },
+        "56e62030-24eb-11ed-80f1-d5095e102791": {
+          "version": "0.8.6",
+          "theme": "asian",
+          "name": "Atsuka",
+          "age": 305,
+          "ageGroup": "middle",
+          "type": "NPC",
+          "alignment": "Neutral Good",
+          "klass": "Bard",
+          "background": "Noble",
+          "specialty": "Baronet",
+          "personalityTraits": [
+            "My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.",
+            "The best way to get me to do something is to tell me I can't do it."
+          ],
+          "ideal": "Respect. Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity.",
+          "bond": "I am in love with the heir of a family that my family despises.",
+          "flaw": "By my words and actions, I often bring shame to my family.",
+          "mannerism": "I often whispers.",
+          "talent": "I have a high pain tolerance.",
+          "trait": "Bossy",
+          "characteristic": "clean",
+          "DNA": {
+            "uuid": "56e62030-24eb-11ed-80f1-d5095e102791",
+            "race": "Elf",
+            "gender": "male"
+          },
+          "birthYear": 595,
+          "deathYear": 900,
+          "motherID": "56e5ab00-24eb-11ed-80f1-d5095e102791",
+          "fatherID": "56e55ce0-24eb-11ed-80f1-d5095e102791",
+          "isHeir": true,
+          "marriageYear": 793,
+          "issue": [
+            "56e69560-24eb-11ed-80f1-d5095e102791"
+          ],
+          "spouseID": "56e66e50-24eb-11ed-80f1-d5095e102791",
+          "description": "Elf with skinny build. They have a chiseled face with bedroom glacial blue eyes and  arched eyebrows with a straight nose and a straight teeth mouth. Their hair is bouncy and silver in color."
+        },
+        "56e64740-24eb-11ed-80f1-d5095e102791": {
+          "version": "0.8.6",
+          "theme": "asian",
+          "name": "Atsum",
+          "age": 521,
+          "ageGroup": "old",
+          "type": "NPC",
+          "alignment": "Lawful Neutral",
+          "klass": "Sorcerer",
+          "background": "Sage",
+          "specialty": "Scribe",
+          "personalityTraits": [
+            "I'm convinced that people are always trying to steal my secrets.",
+            "I don't like to get my hands dirty, and I won't be caught dead in unsuitable accommodations."
+          ],
+          "ideal": "Knowledge. The path to power and self-improvement is through knowledge.",
+          "bond": "I work to preserve a library, university, scriptorium, or monastery.",
+          "flaw": "Unlocking an ancient mystery is worth the price of a civilization.",
+          "mannerism": "I often tap my fingers.",
+          "talent": "I have a high pain tolerance.",
+          "trait": "Curious",
+          "characteristic": "diseased",
+          "DNA": {
+            "uuid": "56e64740-24eb-11ed-80f1-d5095e102791",
+            "race": "Elf",
+            "gender": "female"
+          },
+          "birthYear": 691,
+          "deathYear": 1212,
+          "motherID": "56e5ab00-24eb-11ed-80f1-d5095e102791",
+          "fatherID": "56e55ce0-24eb-11ed-80f1-d5095e102791",
+          "description": "Elf with short build. They have a chiseled face with sparkling emerald eyes and  straight eyebrows with a straight nose and a straight teeth mouth. Their hair is bouncy and silver in color."
+        },
+        "56e66e50-24eb-11ed-80f1-d5095e102791": {
+          "version": "0.8.6",
+          "theme": "asian",
+          "name": "Fuaka",
+          "age": 606,
+          "ageGroup": "old",
+          "type": "NPC",
+          "alignment": "Neutral Good",
+          "klass": "Monk",
+          "background": "Sage",
+          "specialty": "Discredited academic",
+          "personalityTraits": [
+            "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others.",
+            "I always have a plan for what to do when things go wrong."
+          ],
+          "ideal": "Self-Improvement. The goal of a life of study is the betterment of oneself.",
+          "bond": "My life's work is a series of tomes related to a specific field of lore.",
+          "flaw": "Most people scream and run when they see a demon. I stop and take notes on its anatomy.",
+          "mannerism": "I speak loudly.",
+          "talent": "I draw beautifully.",
+          "trait": "Affectionate",
+          "characteristic": "gap-toothed",
+          "DNA": {
+            "uuid": "56e66e50-24eb-11ed-80f1-d5095e102791",
+            "race": "Elf",
+            "gender": "female"
+          },
+          "birthYear": 693,
+          "deathYear": 1299,
+          "marriageYear": 793,
+          "spouseID": "56e62030-24eb-11ed-80f1-d5095e102791",
+          "issue": [
+            "56e69560-24eb-11ed-80f1-d5095e102791"
+          ],
+          "description": "Elf with average height build. They have a chiseled face with bedroom blue eyes and  straight eyebrows with a straight nose and a Cupid's bow mouth. Their hair is straight and blonde in color."
+        },
+        "56e69560-24eb-11ed-80f1-d5095e102791": {
+          "version": "0.8.6",
+          "theme": "asian",
+          "name": "Atsum",
+          "age": 489,
+          "ageGroup": "middle",
+          "type": "NPC",
+          "alignment": "True Neutral",
+          "klass": "Wizard",
+          "background": "Sage",
+          "specialty": "Discredited academic",
+          "personalityTraits": [
+            "I'm convinced that people are always trying to steal my secrets.",
+            "I use polysyllabic words that convey the impression of great erudition."
+          ],
+          "ideal": "Knowledge. The path to power and self-improvement is through knowledge.",
+          "bond": "It is my duty to protect my students.",
+          "flaw": "I am easily distracted by the promise of information.",
+          "mannerism": "I'm prone to humming quietly.",
+          "talent": "I'm an expert at sewing.",
+          "trait": "Rough",
+          "characteristic": "big handed",
+          "DNA": {
+            "uuid": "56e69560-24eb-11ed-80f1-d5095e102791",
+            "race": "Elf",
+            "gender": "male"
+          },
+          "birthYear": 845,
+          "deathYear": 1334,
+          "motherID": "56e66e50-24eb-11ed-80f1-d5095e102791",
+          "fatherID": "56e62030-24eb-11ed-80f1-d5095e102791",
+          "isHeir": true,
+          "marriageYear": 970,
+          "issue": [
+            "56e6e380-24eb-11ed-80f1-d5095e102791",
+            "56e70a90-24eb-11ed-80f1-d5095e102791",
+            "56e731a0-24eb-11ed-80f1-d5095e102791"
+          ],
+          "spouseID": "56e6bc70-24eb-11ed-80f1-d5095e102791",
+          "description": "Elf with skinny build. They have a chiseled face with bedroom silver eyes and  plucked eyebrows with a strong nose and a straight teeth mouth. Their hair is straight and silver in color."
+        },
+        "56e6bc70-24eb-11ed-80f1-d5095e102791": {
+          "version": "0.8.6",
+          "theme": "asian",
+          "name": "Yumino",
+          "age": 555,
+          "ageGroup": "old",
+          "type": "NPC",
+          "alignment": "Chaotic Evil",
+          "klass": "Cleric",
+          "background": "Soldier",
+          "specialty": "Cavalry",
+          "personalityTraits": [
+            "I face problems head-on. A simple, direct solution is the best path to success.",
+            "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me."
+          ],
+          "ideal": "Independence. When people follow orders blindly, they embrace a kind of tyranny.",
+          "bond": "Someone saved my life on the battlefield. To this day, I will never leave a friend behind.",
+          "flaw": "My hatred of my enemies is blind and unreasoning.",
+          "mannerism": "I talk slowly.",
+          "talent": "I'm a skilled dancer.",
+          "trait": "Charismatic",
+          "characteristic": "missing fingered",
+          "DNA": {
+            "uuid": "56e6bc70-24eb-11ed-80f1-d5095e102791",
+            "race": "Elf",
+            "gender": "female"
+          },
+          "birthYear": 804,
+          "deathYear": 1359,
+          "marriageYear": 970,
+          "spouseID": "56e69560-24eb-11ed-80f1-d5095e102791",
+          "issue": [
+            "56e6e380-24eb-11ed-80f1-d5095e102791",
+            "56e70a90-24eb-11ed-80f1-d5095e102791",
+            "56e731a0-24eb-11ed-80f1-d5095e102791"
+          ],
+          "description": "Elf with broad-shouldered build. They have a sharp cheekbones face with bright silver eyes and  straight eyebrows with a long nose and a Cupid's bow mouth. Their hair is shoulder-length and blonde in color."
+        },
+        "56e6e380-24eb-11ed-80f1-d5095e102791": {
+          "version": "0.8.6",
+          "theme": "asian",
+          "name": "Re",
+          "age": 576,
+          "ageGroup": "middle",
+          "type": "NPC",
+          "alignment": "Chaotic Evil",
+          "klass": "Druid",
+          "background": "Sage",
+          "specialty": "Scribe",
+          "personalityTraits": [
+            "I use polysyllabic words that convey the impression of great erudition.",
+            "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me."
+          ],
+          "ideal": "No Limits. Nothing should fetter the infinite possibility inherent in all existence.",
+          "bond": "I sold my soul for knowledge. I hope to do great deeds and win it back.",
+          "flaw": "Most people scream and run when they see a demon. I stop and take notes on its anatomy.",
+          "mannerism": "I have beautiful smile.",
+          "talent": "I'm an expert whittler.",
+          "trait": "Playful",
+          "characteristic": "rough",
+          "DNA": {
+            "uuid": "56e6e380-24eb-11ed-80f1-d5095e102791",
+            "race": "Elf",
+            "gender": "female"
+          },
+          "birthYear": 1017,
+          "deathYear": 1593,
+          "motherID": "56e6bc70-24eb-11ed-80f1-d5095e102791",
+          "fatherID": "56e69560-24eb-11ed-80f1-d5095e102791",
+          "isHeir": true,
+          "description": "Elf with short build. They have a chiseled face with bedroom silver eyes and  plucked eyebrows with a long nose and a rosebud mouth. Their hair is straight and silver in color."
+        },
+        "56e70a90-24eb-11ed-80f1-d5095e102791": {
+          "version": "0.8.6",
+          "theme": "asian",
+          "name": "Yuw",
+          "age": 329,
+          "ageGroup": "middle",
+          "type": "NPC",
+          "alignment": "Lawful Evil",
+          "klass": "Bard",
+          "background": "Folk Hero",
+          "specialty": "A celestial, fey, or similar creature gave me a blessing or revealed my secret origin.",
+          "personalityTraits": [
+            "Thinking is for other people. I prefer action.",
+            "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others."
+          ],
+          "ideal": "Fairness. No one should get preferential treatment before the law, and no one is above the law.",
+          "bond": "I wish my childhood sweetheart had come with me to pursue my destiny.",
+          "flaw": "The tyrant who rules my land will stop at nothing to see me killed.",
+          "mannerism": "I squint.",
+          "talent": "I have a knack for languages.",
+          "trait": "Stubborn",
+          "characteristic": "missing fingered",
+          "DNA": {
+            "uuid": "56e70a90-24eb-11ed-80f1-d5095e102791",
+            "race": "Elf",
+            "gender": "male"
+          },
+          "birthYear": 1051,
+          "deathYear": 1380,
+          "motherID": "56e6bc70-24eb-11ed-80f1-d5095e102791",
+          "fatherID": "56e69560-24eb-11ed-80f1-d5095e102791",
+          "description": "Elf with lean build. They have a chiseled face with sweeping eyelash silver eyes and  straight eyebrows with a strong nose and a straight teeth mouth. Their hair is straight and silver in color."
+        },
+        "56e731a0-24eb-11ed-80f1-d5095e102791": {
+          "version": "0.8.6",
+          "theme": "asian",
+          "name": "Zhai",
+          "age": 450,
+          "ageGroup": "middle",
+          "type": "NPC",
+          "alignment": "Lawful Neutral",
+          "klass": "Cleric",
+          "background": "Acolyte",
+          "specialty": "Goddess",
+          "personalityTraits": [
+            "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.",
+            "My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world."
+          ],
+          "ideal": "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well.",
+          "bond": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy.",
+          "flaw": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.",
+          "mannerism": "I twirl my hair.",
+          "talent": "I'm great at getting my point across.",
+          "trait": "Caustic",
+          "characteristic": "cheap, gaudy ring wearing",
+          "DNA": {
+            "uuid": "56e731a0-24eb-11ed-80f1-d5095e102791",
+            "race": "Elf",
+            "gender": "male"
+          },
+          "birthYear": 1093,
+          "deathYear": 1543,
+          "motherID": "56e6bc70-24eb-11ed-80f1-d5095e102791",
+          "fatherID": "56e69560-24eb-11ed-80f1-d5095e102791",
+          "description": "Elf with short build. They have a chiseled face with bright silver eyes and  plucked eyebrows with a strong nose and a glossy mouth. Their hair is straight and silver in color."
+        }
+      },
+      "regnants": [
+        "56e55ce0-24eb-11ed-80f1-d5095e102791",
+        "56e62030-24eb-11ed-80f1-d5095e102791",
+        "56e69560-24eb-11ed-80f1-d5095e102791"
+      ]
+    },
+    "domain": {
+      "version": "0.5.4",
+      "scale": "locality",
+      "size": "city",
+      "name": "NewYork",
+      "population": {
+        "count": 13821,
+        "density": 34949
+      },
+      "geography": {
+        "arable": {
+          "squaremiles": 0.3712749022817746,
+          "acreage": 238
+        },
+        "wilderness": {
+          "squaremiles": 0.6287250977182254,
+          "acreage": 403
+        },
+        "total": {
+          "squaremiles": 1,
+          "acreage": 640
+        }
+      },
+      "prosperity": "Booming",
+      "demographics": {
+        "industries": [
+          {
+            "industry": "Miners",
+            "count": 354
+          },
+          {
+            "industry": "Hunters",
+            "count": 512
+          },
+          {
+            "industry": "Produce-Farmers",
+            "count": 1152
+          },
+          {
+            "industry": "Horse-Farmers",
+            "count": 282
+          },
+          {
+            "industry": "Cattle-Farmers",
+            "count": 813
+          },
+          {
+            "industry": "Poultry-Farmers",
+            "count": 891
+          },
+          {
+            "industry": "Pork-Farmers",
+            "count": 658
+          },
+          {
+            "industry": "Goatherders",
+            "count": 512
+          },
+          {
+            "industry": "Shepherders",
+            "count": 588
+          },
+          {
+            "industry": "Butlers",
+            "count": 7
+          },
+          {
+            "industry": "Maidservants",
+            "count": 69
+          },
+          {
+            "industry": "Cooks",
+            "count": 69
+          },
+          {
+            "industry": "Groundskeepers",
+            "count": 69
+          },
+          {
+            "industry": "Chauffeurs",
+            "count": 6
+          },
+          {
+            "industry": "Nannies",
+            "count": 35
+          },
+          {
+            "industry": "Bodyguards",
+            "count": 69
+          },
+          {
+            "industry": "Majordomos",
+            "count": 3
+          },
+          {
+            "industry": "Cobblers",
+            "count": 92
+          },
+          {
+            "industry": "Shoemakers",
+            "count": 184
+          },
+          {
+            "industry": "Furriers",
+            "count": 110
+          },
+          {
+            "industry": "Tailors",
+            "count": 110
+          },
+          {
+            "industry": "Barbers",
+            "count": 79
+          },
+          {
+            "industry": "Jewelers",
+            "count": 69
+          },
+          {
+            "industry": "Taverns",
+            "count": 69
+          },
+          {
+            "industry": "Clothiers",
+            "count": 69
+          },
+          {
+            "industry": "Glassblowers",
+            "count": 34
+          },
+          {
+            "industry": "Pastrycooks",
+            "count": 55
+          },
+          {
+            "industry": "Masons",
+            "count": 55
+          },
+          {
+            "industry": "Carpenters",
+            "count": 51
+          },
+          {
+            "industry": "Weavers",
+            "count": 46
+          },
+          {
+            "industry": "Chandlers",
+            "count": 40
+          },
+          {
+            "industry": "Mercers",
+            "count": 39
+          },
+          {
+            "industry": "Coopers",
+            "count": 39
+          },
+          {
+            "industry": "Bakers",
+            "count": 35
+          },
+          {
+            "industry": "Watercarriers",
+            "count": 33
+          },
+          {
+            "industry": "Armorers",
+            "count": 15
+          },
+          {
+            "industry": "Scabbardmakers",
+            "count": 33
+          },
+          {
+            "industry": "Wine-Sellers",
+            "count": 35
+          },
+          {
+            "industry": "Tanners",
+            "count": 14
+          },
+          {
+            "industry": "Skinners",
+            "count": 14
+          },
+          {
+            "industry": "Leatherworkers",
+            "count": 13
+          },
+          {
+            "industry": "Hatmakers",
+            "count": 29
+          },
+          {
+            "industry": "Saddlers",
+            "count": 28
+          },
+          {
+            "industry": "Chicken-Butchers",
+            "count": 34
+          },
+          {
+            "industry": "Pursemakers",
+            "count": 25
+          },
+          {
+            "industry": "Woodsellers",
+            "count": 12
+          },
+          {
+            "industry": "Magic-Shops",
+            "count": 10
+          },
+          {
+            "industry": "Bookbinders",
+            "count": 9
+          },
+          {
+            "industry": "Butchers",
+            "count": 35
+          },
+          {
+            "industry": "Fishmongers",
+            "count": 23
+          },
+          {
+            "industry": "Shipwrights",
+            "count": 6
+          },
+          {
+            "industry": "Beer-Sellers",
+            "count": 20
+          },
+          {
+            "industry": "Buckle-Makers",
+            "count": 20
+          },
+          {
+            "industry": "Plasterers",
+            "count": 19
+          },
+          {
+            "industry": "Spice-Merchants",
+            "count": 20
+          },
+          {
+            "industry": "Blacksmiths",
+            "count": 18
+          },
+          {
+            "industry": "Painters",
+            "count": 18
+          },
+          {
+            "industry": "Roofers",
+            "count": 15
+          },
+          {
+            "industry": "Locksmiths",
+            "count": 15
+          },
+          {
+            "industry": "Finesmiths",
+            "count": 6
+          },
+          {
+            "industry": "Bathers",
+            "count": 14
+          },
+          {
+            "industry": "Potters",
+            "count": 8
+          },
+          {
+            "industry": "Tilemakers",
+            "count": 8
+          },
+          {
+            "industry": "Ropemakers",
+            "count": 15
+          },
+          {
+            "industry": "Inns",
+            "count": 13
+          },
+          {
+            "industry": "Copyists",
+            "count": 14
+          },
+          {
+            "industry": "Sculptors",
+            "count": 14
+          },
+          {
+            "industry": "Rugmakers",
+            "count": 14
+          },
+          {
+            "industry": "Harness-Makers",
+            "count": 14
+          },
+          {
+            "industry": "Bleachers",
+            "count": 13
+          },
+          {
+            "industry": "Hay-Merchants",
+            "count": 12
+          },
+          {
+            "industry": "Cutlers",
+            "count": 12
+          },
+          {
+            "industry": "Glovemakers",
+            "count": 11
+          },
+          {
+            "industry": "Woodcarvers",
+            "count": 12
+          },
+          {
+            "industry": "Booksellers",
+            "count": 4
+          },
+          {
+            "industry": "Surveyors",
+            "count": 10
+          },
+          {
+            "industry": "Cartographers",
+            "count": 5
+          },
+          {
+            "industry": "Illuminators",
+            "count": 7
+          },
+          {
+            "industry": "Scribes",
+            "count": 4
+          },
+          {
+            "industry": "Librarians",
+            "count": 2
+          },
+          {
+            "industry": "Scholars",
+            "count": 4
+          },
+          {
+            "industry": "Apprentices",
+            "count": 30
+          },
+          {
+            "industry": "Advocates",
+            "count": 43
+          },
+          {
+            "industry": "Healers",
+            "count": 61
+          },
+          {
+            "industry": "Doctors",
+            "count": 27
+          },
+          {
+            "industry": "Clergy",
+            "count": 691
+          },
+          {
+            "industry": "Priests",
+            "count": 23
+          },
+          {
+            "industry": "Nobles",
+            "count": 138
+          },
+          {
+            "industry": "Guards",
+            "count": 184
+          },
+          {
+            "industry": "Urchins",
+            "count": 43
+          },
+          {
+            "industry": "Hermits",
+            "count": 86
+          },
+          {
+            "industry": "Charlatans",
+            "count": 22
+          },
+          {
+            "industry": "Criminals",
+            "count": 40
+          },
+          {
+            "industry": "Entertainers",
+            "count": 14
+          }
+        ],
+        "livestock": [
+          {
+            "animal": "chickens",
+            "count": 11940
+          },
+          {
+            "animal": "geese",
+            "count": 2487
+          },
+          {
+            "animal": "ducks",
+            "count": 2487
+          },
+          {
+            "animal": "cattle",
+            "count": 1990
+          },
+          {
+            "animal": "pigs",
+            "count": 3482
+          },
+          {
+            "animal": "sheep",
+            "count": 1741
+          },
+          {
+            "animal": "goats",
+            "count": 746
+          }
+        ]
+      },
+      "terrain": "River",
+      "resources": [
+        "Jade",
+        "Rice",
+        "Salt",
+        "Wine",
+        "Ivory"
+      ]
+    }
+  }
+  

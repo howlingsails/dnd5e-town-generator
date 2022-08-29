@@ -1,0 +1,23 @@
+`<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-1024, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table id="class-table" width="90%" border="1">
+      <thead>
+        <th onclick="sortTable(0, 'class-table', false)">World Name</th>
+      </thead>
+      <tbody>
+        {% for world in worlds %}
+        <tr>
+          <td><a href="world/{{ world }}">{{ world }}</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

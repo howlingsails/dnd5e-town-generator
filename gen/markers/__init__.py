@@ -1,0 +1,1 @@
+# Copyright 2022, William L. Nortman, All Rights Reserved

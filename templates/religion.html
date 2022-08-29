@@ -1,0 +1,33 @@
+`<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-1024, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="/static/style.css" />
+
+  <body>
+    <div>
+      <h3>Spirituallty</h3>
+      <article class="a-religions">
+        <content
+          >{{religion.deity}} - {{religion.name}} - {{religion.type}} - {{
+          religion.form}}</content
+        >
+        {% if religion.description %}
+        <content>{{religion.description}}</content>
+        {% endif %}
+      </article>
+      <br />
+      <div class="religion-generator">
+        <iframe
+          class="responsive-iframe"
+          src="http://orteil.dashnet.org/randomgen/?gen=Pyb0WuYY"
+          title="Religion"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,626 @@
+{'cell': 1827, 'x': 579, 'y': 315.5, 'state': 31, 'i': 428, 'culture': 14, 'name': 'Tolukkhil', 'capital': 0, 'feature': 2, 'port': 9, 'population': 14.143, 'type': 'Naval', 'coa': {'t1': 'azure', 'division': {'division': 'perChevronReversed', 't': 'argent', 'line': 'invecked'
+        }, 'charges': [
+            {'charge': 'anchor', 't': 'or', 'p': 'mok', 'divided': 'counter', 'size': 0.5
+            }
+        ], 'shield': 'spanish'
+    }, 'citadel': 1, 'plaza': 1, 'walls': 1, 'shanty': 1, 'temple': 0, 'totalPopulation': 7495, 'leader': {'version': '0.8.6', 'theme': 'classical', 'name': 'Lidsys Kelkas', 'age': 90, 'ageGroup': 'middle', 'type': 'NPC', 'alignment': 'Neutral Good', 'klass': 'Ranger', 'background': 'Soldier', 'specialty': 'Quartermaster', 'personalityTraits': ['I have a crude sense of humor.',
+            "I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation."
+        ], 'ideal': 'Greater Good. Our lot is to lay down our lives in defense of others.', 'bond': 'Those who fight beside me are those worth dying for.', 'flaw': 'I made a terrible mistake in battle that cost many lives -- and I would do anything to keep that mistake secret.', 'mannerism': 'I twirl my hair.', 'talent': 'I can uncannily predict the weather.', 'trait': 'Ambitious', 'characteristic': 'eye-patch wearing', 'DNA': {'uuid': 'ecd3c740-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'female'
+        }, 'birthYear': 416, 'deathYear': 506, 'motherID': 'ecd2dce0-25af-11ed-a646-8551758df458', 'fatherID': 'ecd37920-25af-11ed-a646-8551758df458', 'isHeir': True, 'marriageYear': 436, 'issue': ['ecd43c70-25af-11ed-a646-8551758df458', 'ecd48a90-25af-11ed-a646-8551758df458', 'ecd4ffc0-25af-11ed-a646-8551758df458', 'ecd54de0-25af-11ed-a646-8551758df458'
+        ], 'spouseID': 'ecd41560-25af-11ed-a646-8551758df458', 'description': 'Halfling with grimy fingernails build. They have a double chin face with sparkling silver gray eyes and  straight eyebrows with a turned-up nose and a gleaming white teeth mouth. Their hair is windblown and black in color.'
+    }, 'dynasty': {'version': '0.4.8', 'theme': 'classical', 'race': 'Halfling', 'inheritance': 'ambilineality', 'startingYear': 350, 'yearFormat': 'BCE', 'name': 'Lallanabi', 'generations': {'regnant': 'ecd1f280-25af-11ed-a646-8551758df458', 'consort': 'ecd267b0-25af-11ed-a646-8551758df458', 'heir': {'regnant': 'ecd2dce0-25af-11ed-a646-8551758df458', 'consort': 'ecd37920-25af-11ed-a646-8551758df458', 'heir': {'regnant': 'ecd3c740-25af-11ed-a646-8551758df458', 'consort': 'ecd41560-25af-11ed-a646-8551758df458'
+                }
+            }
+        }, 'persons': {'ecd1f280-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Kelhaly Kelkas', 'age': 129, 'ageGroup': 'middle', 'type': 'NPC', 'alignment': 'Neutral Good', 'klass': 'Wizard', 'background': 'Soldier', 'specialty': 'Scout', 'personalityTraits': ['I enjoy being strong and like breaking things.', 'The first thing I do in a new place is note the locations of everything valuable -- or where such things could be hidden.'
+                ], 'ideal': "Live and Let Live. Ideals aren't worth killing over or going to war for.", 'bond': 'My honor is my life.', 'flaw': 'I have little respect for anyone who is not a proven warrior.', 'mannerism': 'I eat like a bird.', 'talent': 'I draw beautifully.', 'trait': 'Unkind', 'characteristic': 'face tattooed', 'DNA': {'uuid': 'ecd1f280-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'female'
+                }, 'birthYear': 350, 'deathYear': 479, 'marriageYear': 370, 'issue': ['ecd2dce0-25af-11ed-a646-8551758df458', 'ecd32b00-25af-11ed-a646-8551758df458'
+                ], 'spouseID': 'ecd267b0-25af-11ed-a646-8551758df458', 'epithet': 'Just', 'description': 'Halfling with average height build. They have a receding chin face with sparkling silver eyes and  arched eyebrows with a straight nose and a sharp teeth mouth. Their hair is messy and silver in color.'
+            }, 'ecd267b0-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Uriemin Kelkas', 'age': 68, 'ageGroup': 'old', 'type': 'NPC', 'alignment': 'Chaotic Good', 'klass': 'Wizard', 'background': 'Soldier', 'specialty': 'Healer', 'personalityTraits': [
+                    "I've lost too many friends, and I'm slow to make new ones.",
+                    "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+                ], 'ideal': 'Independence. When people follow orders blindly, they embrace a kind of tyranny.', 'bond': 'I fight for those who cannot fight for themselves.', 'flaw': 'I have little respect for anyone who is not a proven warrior.', 'mannerism': 'I speak loudly.', 'talent': "I'm great at getting my point across.", 'trait': 'Funny', 'characteristic': 'one armed', 'DNA': {'uuid': 'ecd267b0-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'male'
+                }, 'birthYear': 335, 'deathYear': 403, 'marriageYear': 370, 'spouseID': 'ecd1f280-25af-11ed-a646-8551758df458', 'issue': ['ecd2dce0-25af-11ed-a646-8551758df458', 'ecd32b00-25af-11ed-a646-8551758df458'
+                ], 'description': 'Halfling with heavy build. They have a broad forehead face with bulging bronze eyes and  straight eyebrows with a small nose and a chapped mouth. Their hair is windblown and blonde in color.'
+            }, 'ecd2dce0-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Erawyn Kelkas', 'age': 143, 'ageGroup': 'middle', 'type': 'NPC', 'alignment': 'Chaotic Neutral', 'klass': 'Warlock', 'background': 'Sage', 'specialty': 'Alchemist', 'personalityTraits': [
+                    "I've read every book in the world's greatest libraries -- or I like to boast that I have.",
+                    "I've lost too many friends, and I'm slow to make new ones."
+                ], 'ideal': 'Knowledge. The path to power and self-improvement is through knowledge.', 'bond': 'I sold my soul for knowledge. I hope to do great deeds and win it back.', 'flaw': 'Most people scream and run when they see a demon. I stop and take notes on its anatomy.', 'mannerism': 'I pace.', 'talent': 'I have a great bedside manner.', 'trait': 'Impatient', 'characteristic': 'wart covered', 'DNA': {'uuid': 'ecd2dce0-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'female'
+                }, 'birthYear': 373, 'deathYear': 516, 'motherID': 'ecd1f280-25af-11ed-a646-8551758df458', 'fatherID': 'ecd267b0-25af-11ed-a646-8551758df458', 'isHeir': True, 'marriageYear': 410, 'issue': ['ecd3c740-25af-11ed-a646-8551758df458'
+                ], 'spouseID': 'ecd37920-25af-11ed-a646-8551758df458', 'description': 'Halfling with grimy fingernails build. They have a broad forehead face with sparkling turquoise eyes and  arched eyebrows with a hawk nose and a dry mouth. Their hair is windblown and silver in color.'
+            }, 'ecd32b00-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Zenwyse Kelkas', 'age': 138, 'ageGroup': 'middle', 'type': 'NPC', 'alignment': 'Lawful Neutral', 'klass': 'Wizard', 'background': 'Acolyte', 'specialty': 'Pantheon of Gods', 'personalityTraits': [
+                    "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.", 'I can stare down a hell hound without flinching.'
+                ], 'ideal': 'Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well.', 'bond': 'Everything I do is for the common people.', 'flaw': 'I am inflexible in my thinking.', 'mannerism': 'I sneeze frequently.', 'talent': "I'm a skilled at sleight-of-hand.", 'trait': 'Tough', 'characteristic': 'veiled', 'DNA': {'uuid': 'ecd32b00-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'female'
+                }, 'birthYear': 377, 'deathYear': 515, 'motherID': 'ecd1f280-25af-11ed-a646-8551758df458', 'fatherID': 'ecd267b0-25af-11ed-a646-8551758df458', 'description': 'Halfling with grimy fingernails build. They have a broad forehead face with sparkling turquoise eyes and  straight eyebrows with a straight nose and a dry mouth. Their hair is messy and silver in color.'
+            }, 'ecd37920-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Corner Kelkas', 'age': 75, 'ageGroup': 'middle', 'type': 'NPC', 'alignment': 'Neutral Evil', 'klass': 'Warlock', 'background': 'Acolyte', 'specialty': 'Pantheon of Gods', 'personalityTraits': ['I see omens in every event and action. The gods try to speak to us, we just need to listen.',
+                    "I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation."
+                ], 'ideal': 'Family. Blood runs thicker than water.', 'bond': 'I will do anything to protect the temple where I served.', 'flaw': 'I am suspicious of strangers and expect the worst of them.', 'mannerism': 'I frequently wink.', 'talent': "I'm an expert cook.", 'trait': 'Selfish', 'characteristic': 'all thumbs', 'DNA': {'uuid': 'ecd37920-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'male'
+                }, 'birthYear': 382, 'deathYear': 457, 'marriageYear': 410, 'spouseID': 'ecd2dce0-25af-11ed-a646-8551758df458', 'issue': ['ecd3c740-25af-11ed-a646-8551758df458'
+                ], 'description': 'Halfling with sloping shoulders build. They have a broad forehead face with dull whiskey eyes and  heavy eyebrows with a small nose and a gleaming white teeth mouth. Their hair is bushy and black in color.'
+            }, 'ecd3c740-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Lidsys Kelkas', 'age': 90, 'ageGroup': 'middle', 'type': 'NPC', 'alignment': 'Neutral Good', 'klass': 'Ranger', 'background': 'Soldier', 'specialty': 'Quartermaster', 'personalityTraits': ['I have a crude sense of humor.',
+                    "I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation."
+                ], 'ideal': 'Greater Good. Our lot is to lay down our lives in defense of others.', 'bond': 'Those who fight beside me are those worth dying for.', 'flaw': 'I made a terrible mistake in battle that cost many lives -- and I would do anything to keep that mistake secret.', 'mannerism': 'I twirl my hair.', 'talent': 'I can uncannily predict the weather.', 'trait': 'Ambitious', 'characteristic': 'eye-patch wearing', 'DNA': {'uuid': 'ecd3c740-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'female'
+                }, 'birthYear': 416, 'deathYear': 506, 'motherID': 'ecd2dce0-25af-11ed-a646-8551758df458', 'fatherID': 'ecd37920-25af-11ed-a646-8551758df458', 'isHeir': True, 'marriageYear': 436, 'issue': ['ecd43c70-25af-11ed-a646-8551758df458', 'ecd48a90-25af-11ed-a646-8551758df458', 'ecd4ffc0-25af-11ed-a646-8551758df458', 'ecd54de0-25af-11ed-a646-8551758df458'
+                ], 'spouseID': 'ecd41560-25af-11ed-a646-8551758df458', 'description': 'Halfling with grimy fingernails build. They have a double chin face with sparkling silver gray eyes and  straight eyebrows with a turned-up nose and a gleaming white teeth mouth. Their hair is windblown and black in color.'
+            }, 'ecd41560-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Zalrin Kelkas', 'age': 70, 'ageGroup': 'child', 'type': 'NPC', 'alignment': 'True Neutral', 'klass': 'Monk', 'background': 'Soldier', 'specialty': 'Standard bearer', 'personalityTraits': ['I can stare down a hell hound without flinching.',
+                    "I'm haunted by memories of war. I can't get the images of violence out of my mind."
+                ], 'ideal': 'Nation. My city, nation, or people are all that matter.', 'bond': 'Those who fight beside me are those worth dying for.', 'flaw': 'The monstrous enemy we faced in battle still leaves me quivering with fear.', 'mannerism': 'My voice cracks.', 'talent': "I'm great at solving puzzles.", 'trait': 'Tough', 'characteristic': 'sallow', 'DNA': {'uuid': 'ecd41560-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'male'
+                }, 'birthYear': 411, 'deathYear': 481, 'marriageYear': 436, 'spouseID': 'ecd3c740-25af-11ed-a646-8551758df458', 'issue': ['ecd43c70-25af-11ed-a646-8551758df458', 'ecd48a90-25af-11ed-a646-8551758df458', 'ecd4ffc0-25af-11ed-a646-8551758df458', 'ecd54de0-25af-11ed-a646-8551758df458'
+                ], 'description': 'Halfling with grimy fingernails build. They have a round face with glittering leaf green eyes and  arched eyebrows with a Roman nose and a rosebud mouth. Their hair is tangled and ginger in color.'
+            }, 'ecd43c70-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Perwrick Kelkas', 'age': 135, 'ageGroup': 'middle', 'type': 'NPC', 'alignment': 'Neutral Evil', 'klass': 'Bard', 'background': 'Folk Hero', 'specialty': 'A celestial, fey, or similar creature gave me a blessing or revealed my secret origin.', 'personalityTraits': ['Thinking is for other people. I prefer action.', 'I am always calm, no matter what the situation. I never raise my voice or let my emotions control me.'
+                ], 'ideal': "Sincerity. There's no good in pretending to be something I'm not.", 'bond': 'A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.', 'flaw': 'I have trouble trusting in my allies.', 'mannerism': 'I bounce on my heels when excited.', 'talent': 'I can uncannily predict the weather.', 'trait': 'Irritable', 'characteristic': 'anemic', 'DNA': {'uuid': 'ecd43c70-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'male'
+                }, 'birthYear': 441, 'deathYear': 576, 'motherID': 'ecd3c740-25af-11ed-a646-8551758df458', 'fatherID': 'ecd41560-25af-11ed-a646-8551758df458', 'isHeir': True, 'description': 'Halfling with grimy fingernails build. They have a double chin face with sparkling silver eyes and  straight eyebrows with a small nose and a rosebud mouth. Their hair is tangled and caramel in color.'
+            }, 'ecd48a90-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Oridon Kelkas', 'age': 82, 'ageGroup': 'young', 'type': 'NPC', 'alignment': 'Lawful Good', 'klass': 'Ranger', 'background': 'Criminal', 'specialty': 'Fence', 'personalityTraits': [
+                    "The best way to get me to do something is to tell me I can't do it.", 'I blow up at the slightest insult.'
+                ], 'ideal': "Honor. I don't steal from others in the trade.", 'bond': 'Someone I loved died because of I mistake I made. That will never happen again.', 'flaw': "When I see something valuable, I can't think about anything but how to steal it.", 'mannerism': 'I frequently wink.', 'talent': "I'm great at getting my point across.", 'trait': 'Shy', 'characteristic': 'big footed', 'DNA': {'uuid': 'ecd48a90-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'male'
+                }, 'birthYear': 455, 'deathYear': 537, 'motherID': 'ecd3c740-25af-11ed-a646-8551758df458', 'fatherID': 'ecd41560-25af-11ed-a646-8551758df458', 'description': 'Halfling with grimy fingernails build. They have a double chin face with sparkling silver eyes and  straight eyebrows with a bulbous nose and a gleaming white teeth mouth. Their hair is unkempt and ginger in color.'
+            }, 'ecd4ffc0-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Hahaly Kelkas', 'age': 119, 'ageGroup': 'child', 'type': 'NPC', 'alignment': 'Chaotic Evil', 'klass': 'Paladin', 'background': 'Folk Hero', 'specialty': "Recruited into a lord's army, I rose to leadership and was commended for my heroism.", 'personalityTraits': ['I misuse long words in an attempt to sound smarter.', 'I see omens in every event and action. The gods try to speak to us, we just need to listen.'
+                ], 'ideal': 'Destiny. Nothing and no one can steer me away from my higher calling.', 'bond': 'I protect those who cannot protect themselves.', 'flaw': "I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.", 'mannerism': 'I frequently whittle.', 'talent': 'I have a high pain tolerance.', 'trait': 'Greedy', 'characteristic': 'burn scarred', 'DNA': {'uuid': 'ecd4ffc0-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'female'
+                }, 'birthYear': 474, 'deathYear': 593, 'motherID': 'ecd3c740-25af-11ed-a646-8551758df458', 'fatherID': 'ecd41560-25af-11ed-a646-8551758df458', 'description': 'Halfling with grimy fingernails build. They have a double chin face with glittering bronze eyes and  straight eyebrows with a small nose and a gleaming white teeth mouth. Their hair is tangled and brown sugar in color.'
+            }, 'ecd54de0-25af-11ed-a646-8551758df458': {'version': '0.8.6', 'theme': 'classical', 'name': 'Xanhaly Kelkas', 'age': 148, 'ageGroup': 'middle', 'type': 'NPC', 'alignment': 'Neutral Evil', 'klass': 'Warlock', 'background': 'Soldier', 'specialty': 'Support staff (cook, blacksmith, or the like)', 'personalityTraits': ['I can stare down a hell hound without flinching.', 'I misuse long words in an attempt to sound smarter.'
+                ], 'ideal': 'Might. In life as in war, the stronger force wins.', 'bond': 'My honor is my life.', 'flaw': 'I obey the law, even if the law causes misery.', 'mannerism': 'I make constant puns.', 'talent': "I'm great at impersonations.", 'trait': 'Dauntless', 'characteristic': 'clumsy', 'DNA': {'uuid': 'ecd54de0-25af-11ed-a646-8551758df458', 'race': 'Halfling', 'gender': 'female'
+                }, 'birthYear': 478, 'deathYear': 626, 'motherID': 'ecd3c740-25af-11ed-a646-8551758df458', 'fatherID': 'ecd41560-25af-11ed-a646-8551758df458', 'description': 'Halfling with grimy fingernails build. They have a double chin face with fringed long lash silver eyes and  arched eyebrows with a bulbous nose and a rosebud mouth. Their hair is windblown and brown sugar in color.'
+            }
+        }, 'regnants': ['ecd1f280-25af-11ed-a646-8551758df458', 'ecd2dce0-25af-11ed-a646-8551758df458', 'ecd3c740-25af-11ed-a646-8551758df458'
+        ]
+    }, 'domain': {'version': '0.5.4', 'scale': 'locality', 'size': 'town', 'name': 'Tolukkhil', 'population': {'count': 3960, 'density': 9133
+        }, 'geography': {'arable': {'squaremiles': 0.4256941792148909, 'acreage': 273
+            }, 'wilderness': {'squaremiles': 0.5743058207851091, 'acreage': 368
+            }, 'total': {'squaremiles': 1, 'acreage': 640
+            }
+        }, 'prosperity': 'Booming', 'demographics': {'industries': [
+                {'industry': 'Miners', 'count': 102
+                },
+                {'industry': 'Hunters', 'count': 147
+                },
+                {'industry': 'Produce-Farmers', 'count': 330
+                },
+                {'industry': 'Horse-Farmers', 'count': 81
+                },
+                {'industry': 'Cattle-Farmers', 'count': 233
+                },
+                {'industry': 'Poultry-Farmers', 'count': 256
+                },
+                {'industry': 'Pork-Farmers', 'count': 188
+                },
+                {'industry': 'Goatherders', 'count': 147
+                },
+                {'industry': 'Shepherders', 'count': 168
+                },
+                {'industry': 'Butlers', 'count': 2
+                },
+                {'industry': 'Maidservants', 'count': 20
+                },
+                {'industry': 'Cooks', 'count': 20
+                },
+                {'industry': 'Groundskeepers', 'count': 20
+                },
+                {'industry': 'Chauffeurs', 'count': 2
+                },
+                {'industry': 'Nannies', 'count': 10
+                },
+                {'industry': 'Bodyguards', 'count': 19
+                },
+                {'industry': 'Majordomos', 'count': 1
+                },
+                {'industry': 'Cobblers', 'count': 26
+                },
+                {'industry': 'Shoemakers', 'count': 52
+                },
+                {'industry': 'Furriers', 'count': 32
+                },
+                {'industry': 'Tailors', 'count': 32
+                },
+                {'industry': 'Barbers', 'count': 23
+                },
+                {'industry': 'Jewelers', 'count': 19
+                },
+                {'industry': 'Taverns', 'count': 20
+                },
+                {'industry': 'Clothiers', 'count': 20
+                },
+                {'industry': 'Glassblowers', 'count': 10
+                },
+                {'industry': 'Pastrycooks', 'count': 16
+                },
+                {'industry': 'Masons', 'count': 16
+                },
+                {'industry': 'Carpenters', 'count': 14
+                },
+                {'industry': 'Weavers', 'count': 13
+                },
+                {'industry': 'Chandlers', 'count': 11
+                },
+                {'industry': 'Mercers', 'count': 12
+                },
+                {'industry': 'Coopers', 'count': 12
+                },
+                {'industry': 'Bakers', 'count': 10
+                },
+                {'industry': 'Watercarriers', 'count': 9
+                },
+                {'industry': 'Armorers', 'count': 4
+                },
+                {'industry': 'Scabbardmakers', 'count': 9
+                },
+                {'industry': 'Wine-Sellers', 'count': 10
+                },
+                {'industry': 'Tanners', 'count': 4
+                },
+                {'industry': 'Skinners', 'count': 4
+                },
+                {'industry': 'Leatherworkers', 'count': 4
+                },
+                {'industry': 'Hatmakers', 'count': 8
+                },
+                {'industry': 'Saddlers', 'count': 8
+                },
+                {'industry': 'Chicken-Butchers', 'count': 10
+                },
+                {'industry': 'Pursemakers', 'count': 7
+                },
+                {'industry': 'Woodsellers', 'count': 4
+                },
+                {'industry': 'Magic-Shops', 'count': 3
+                },
+                {'industry': 'Bookbinders', 'count': 2
+                },
+                {'industry': 'Butchers', 'count': 10
+                },
+                {'industry': 'Fishmongers', 'count': 6
+                },
+                {'industry': 'Shipwrights', 'count': 1
+                },
+                {'industry': 'Beer-Sellers', 'count': 6
+                },
+                {'industry': 'Buckle-Makers', 'count': 5
+                },
+                {'industry': 'Plasterers', 'count': 6
+                },
+                {'industry': 'Spice-Merchants', 'count': 6
+                },
+                {'industry': 'Blacksmiths', 'count': 5
+                },
+                {'industry': 'Painters', 'count': 5
+                },
+                {'industry': 'Roofers', 'count': 5
+                },
+                {'industry': 'Locksmiths', 'count': 4
+                },
+                {'industry': 'Finesmiths', 'count': 1
+                },
+                {'industry': 'Bathers', 'count': 4
+                },
+                {'industry': 'Potters', 'count': 2
+                },
+                {'industry': 'Tilemakers', 'count': 2
+                },
+                {'industry': 'Ropemakers', 'count': 4
+                },
+                {'industry': 'Inns', 'count': 4
+                },
+                {'industry': 'Copyists', 'count': 4
+                },
+                {'industry': 'Sculptors', 'count': 4
+                },
+                {'industry': 'Rugmakers', 'count': 4
+                },
+                {'industry': 'Harness-Makers', 'count': 4
+                },
+                {'industry': 'Bleachers', 'count': 4
+                },
+                {'industry': 'Hay-Merchants', 'count': 3
+                },
+                {'industry': 'Cutlers', 'count': 3
+                },
+                {'industry': 'Glovemakers', 'count': 3
+                },
+                {'industry': 'Woodcarvers', 'count': 4
+                },
+                {'industry': 'Booksellers', 'count': 2
+                },
+                {'industry': 'Surveyors', 'count': 3
+                },
+                {'industry': 'Cartographers', 'count': 1
+                },
+                {'industry': 'Illuminators', 'count': 2
+                },
+                {'industry': 'Scribes', 'count': 1
+                },
+                {'industry': 'Scholars', 'count': 1
+                },
+                {'industry': 'Apprentices', 'count': 9
+                },
+                {'industry': 'Advocates', 'count': 12
+                },
+                {'industry': 'Healers', 'count': 18
+                },
+                {'industry': 'Doctors', 'count': 8
+                },
+                {'industry': 'Clergy', 'count': 198
+                },
+                {'industry': 'Priests', 'count': 6
+                },
+                {'industry': 'Nobles', 'count': 40
+                },
+                {'industry': 'Guards', 'count': 53
+                },
+                {'industry': 'Urchins', 'count': 12
+                },
+                {'industry': 'Hermits', 'count': 25
+                },
+                {'industry': 'Charlatans', 'count': 6
+                },
+                {'industry': 'Criminals', 'count': 11
+                },
+                {'industry': 'Entertainers', 'count': 4
+                }
+            ], 'livestock': [
+                {'animal': 'chickens', 'count': 3421
+                },
+                {'animal': 'geese', 'count': 712
+                },
+                {'animal': 'ducks', 'count': 712
+                },
+                {'animal': 'cattle', 'count': 570
+                },
+                {'animal': 'pigs', 'count': 997
+                },
+                {'animal': 'sheep', 'count': 498
+                },
+                {'animal': 'goats', 'count': 213
+                }
+            ]
+        }, 'terrain': 'River', 'resources': ['Silk', 'Ducks', 'Perfume', 'Cattle', 'Truffles', 'Mercury', 'Crabs', 'Ivory'
+        ], 'totalIndustriesPeople': 2691
+    }, 'closeMarkers': [
+        {'marker': {'i': 88, 'icon': '⛏️', 'type': 'mines', 'x': 579, 'y': 315.5, 'cell': 1827, 'dx': 48, 'px': 13
+            }, 'distance': 0.0, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 150, 'icon': '⛏️', 'type': 'mines', 'x': 575, 'y': 310.5, 'cell': 1824, 'dx': 48, 'px': 13
+            }, 'distance': 6.4031242374328485, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 95, 'icon': '⛏️', 'type': 'mines', 'x': 569, 'y': 311.5, 'cell': 1823, 'dx': 48, 'px': 13
+            }, 'distance': 10.770329614269007, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 134, 'icon': '⛏️', 'type': 'mines', 'x': 583.92, 'y': 325.55, 'cell': 1971, 'dx': 48, 'px': 13
+            }, 'distance': 11.189678279557452, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 801, 'icon': '👹', 'type': 'hill-monsters', 'x': 584.8, 'y': 305.1, 'cell': 1825, 'dy': 54, 'px': 13
+            }, 'distance': 11.907980517283315, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1009, 'icon': '🕷️', 'type': 'spiders', 'x': 591.9, 'y': 315, 'cell': 1826, 'dy': 54, 'px': 13
+            }, 'distance': 12.909686285886245, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 137, 'icon': '⛏️', 'type': 'mines', 'x': 589.25, 'y': 330.25, 'cell': 1972, 'dx': 48, 'px': 13
+            }, 'distance': 17.961764946686056, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 123, 'icon': '⛏️', 'type': 'mines', 'x': 560.75, 'y': 315.25, 'cell': 1821, 'dx': 48, 'px': 13
+            }, 'distance': 18.25171224844398, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 969, 'icon': '🕷️', 'type': 'spiders', 'x': 584.19, 'y': 297.77, 'cell': 1686, 'dy': 54, 'px': 13
+            }, 'distance': 18.47400876907882, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1158, 'icon': '🐐', 'type': 'giant goat heard', 'x': 600.09, 'y': 306.04, 'cell': 1828, 'dy': 54, 'px': 13
+            }, 'distance': 23.114491125698635, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 61, 'icon': '⛏️', 'type': 'mines', 'x': 552.6, 'y': 315.8, 'cell': 1822, 'dx': 48, 'px': 13
+            }, 'distance': 26.401704490430138, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 982, 'icon': '🕷️', 'type': 'spiders', 'x': 584.05, 'y': 287.96, 'cell': 1549, 'dy': 54, 'px': 13
+            }, 'distance': 27.99918034514583, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 386, 'icon': '🐉', 'type': 'lake-monsters', 'x': 552.8, 'y': 328.12, 'cell': 1966, 'dy': 48
+            }, 'distance': 29.080997231869517, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 101, 'icon': '⛏️', 'type': 'mines', 'x': 603.8, 'y': 331.1, 'cell': 1974, 'dx': 48, 'px': 13
+            }, 'distance': 29.298464123567953, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 249, 'icon': '💎', 'type': 'gem-mines', 'x': 608.2, 'y': 297.36, 'cell': 1688, 'dx': 48, 'px': 13
+            }, 'distance': 34.375857807478816, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        },
+        {'marker': {'i': 136, 'icon': '⛏️', 'type': 'mines', 'x': 539.04, 'y': 331.84, 'cell': 2114, 'dx': 48, 'px': 13
+            }, 'distance': 43.17171759381369, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1000, 'icon': '🕷️', 'type': 'spiders', 'x': 623.52, 'y': 323.12, 'cell': 1976, 'dy': 54, 'px': 13
+            }, 'distance': 45.16740860399231, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 255, 'icon': '💎', 'type': 'gem-mines', 'x': 629.7, 'y': 314.96, 'cell': 1830, 'dx': 48, 'px': 13
+            }, 'distance': 50.70287565809266, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        },
+        {'marker': {'i': 74, 'icon': '⛏️', 'type': 'mines', 'x': 532.5, 'y': 339, 'cell': 2115, 'dx': 48, 'px': 13
+            }, 'distance': 52.100863716449076, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 921, 'icon': '🕷️', 'type': 'spiders', 'x': 565.26, 'y': 264.26, 'cell': 1411, 'dy': 54, 'px': 13
+            }, 'distance': 53.0502139486732, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1246, 'icon': '🏯', 'type': 'citadel', 'x': 578.76, 'y': 257.2, 'cell': 1276, 'px': 13
+            }, 'distance': 58.3004939944766, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 85, 'icon': '⛏️', 'type': 'mines', 'x': 519.5, 'y': 308.6, 'cell': 1682, 'dx': 48, 'px': 13
+            }, 'distance': 59.898747900102215, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 220, 'icon': '💎', 'type': 'gem-mines', 'x': 635.31, 'y': 335.95, 'cell': 2125, 'dx': 48, 'px': 13
+            }, 'distance': 59.90841844014907, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        },
+        {'marker': {'i': 1244, 'icon': '🏯', 'type': 'citadel', 'x': 615.48, 'y': 363.47, 'cell': 2424, 'px': 13
+            }, 'distance': 60.26534078556267, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 124, 'icon': '⛏️', 'type': 'mines', 'x': 522.5, 'y': 293, 'cell': 1545, 'dx': 48, 'px': 13
+            }, 'distance': 60.815294129026455, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1011, 'icon': '🕷️', 'type': 'spiders', 'x': 628.19, 'y': 352.19, 'cell': 2277, 'dy': 54, 'px': 13
+            }, 'distance': 61.36621383139101, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 247, 'icon': '💎', 'type': 'gem-mines', 'x': 640.05, 'y': 305.01, 'cell': 1831, 'dx': 48, 'px': 13
+            }, 'distance': 61.94467370161856, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        },
+        {'marker': {'i': 98, 'icon': '⛏️', 'type': 'mines', 'x': 529.6, 'y': 276.7, 'cell': 1408, 'dx': 48, 'px': 13
+            }, 'distance': 62.81560315717743, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1098, 'icon': '🐐', 'type': 'giant goat heard', 'x': 619.93, 'y': 363.36, 'cell': 2425, 'dy': 54, 'px': 13
+            }, 'distance': 62.97495136957231, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 90, 'icon': '⛏️', 'type': 'mines', 'x': 522, 'y': 287.5, 'cell': 1544, 'dx': 48, 'px': 13
+            }, 'distance': 63.50590523722971, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1245, 'icon': '🏯', 'type': 'citadel', 'x': 540.08, 'y': 264.92, 'cell': 1409, 'px': 13
+            }, 'distance': 63.82086492676196, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 109, 'icon': '⛏️', 'type': 'mines', 'x': 510.29, 'y': 317.63, 'cell': 1963, 'dx': 48, 'px': 13
+            }, 'distance': 68.74300691706755, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 122, 'icon': '⛏️', 'type': 'mines', 'x': 509.75, 'y': 306.625, 'cell': 1818, 'dx': 48, 'px': 13
+            }, 'distance': 69.81638865624603, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 55, 'icon': '⛏️', 'type': 'mines', 'x': 523, 'y': 269.5, 'cell': 1407, 'dx': 48, 'px': 13
+            }, 'distance': 72.47068372797375, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 265, 'icon': '💎', 'type': 'gem-mines', 'x': 652.79, 'y': 315.54, 'cell': 1832, 'dx': 48, 'px': 13
+            }, 'distance': 73.79001084157662, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        },
+        {'marker': {'i': 984, 'icon': '🕷️', 'type': 'spiders', 'x': 598.79, 'y': 243.64, 'cell': 1144, 'dy': 54, 'px': 13
+            }, 'distance': 74.53525139153956, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 896, 'icon': '🕷️', 'type': 'spiders', 'x': 578.94, 'y': 240.8, 'cell': 1143, 'dy': 54, 'px': 13
+            }, 'distance': 74.70002409638164, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 989, 'icon': '🕷️', 'type': 'spiders', 'x': 652.32, 'y': 333.6, 'cell': 2126, 'dy': 54, 'px': 13
+            }, 'distance': 75.52107255594301, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 288, 'icon': '💎', 'type': 'gem-mines', 'x': 570.95, 'y': 390.64, 'cell': 2713, 'dx': 48, 'px': 13
+            }, 'distance': 75.56998147412766, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        },
+        {'marker': {'i': 275, 'icon': '💎', 'type': 'gem-mines', 'x': 555.44, 'y': 387.81, 'cell': 2712, 'dx': 48, 'px': 13
+            }, 'distance': 76.05136224946926, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        },
+        {'marker': {'i': 985, 'icon': '🕷️', 'type': 'spiders', 'x': 631.02, 'y': 259.99, 'cell': 1279, 'dy': 54, 'px': 13
+            },
+            'distance': 76.07522921424554, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1065, 'icon': '🐐', 'type': 'giant goat heard', 'x': 551.19, 'y': 244.19, 'cell': 1141, 'dy': 54, 'px': 13
+            }, 'distance': 76.54091846848976, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 72, 'icon': '⛏️', 'type': 'mines', 'x': 522.3, 'y': 261.2, 'cell': 1271, 'dx': 48, 'px': 13
+            }, 'distance': 78.50719712230214, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1242, 'icon': '🏯', 'type': 'citadel', 'x': 499.86, 'y': 335.98, 'cell': 2111, 'px': 13
+            }, 'distance': 81.74698771208637, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1025, 'icon': '🐐', 'type': 'giant goat heard', 'x': 652.91, 'y': 279.24, 'cell': 1554, 'dy': 54, 'px': 13
+            }, 'distance': 82.3254255986569, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 142, 'icon': '⛏️', 'type': 'mines', 'x': 495, 'y': 305.5, 'cell': 1677, 'dx': 48, 'px': 13
+            }, 'distance': 84.5931439302264, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 162, 'icon': '💎', 'type': 'gem-mines', 'x': 662.55, 'y': 329.04, 'cell': 1979, 'dx': 48, 'px': 13
+            }, 'distance': 84.64002658317159, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        },
+        {'marker': {'i': 33, 'icon': '♨️', 'type': 'hot-springs', 'x': 492.5, 'y': 310, 'cell': 1815, 'dy': 52
+            }, 'distance': 86.67467911679859, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 194, 'icon': '💎', 'type': 'gem-mines', 'x': 615.68, 'y': 235.85, 'cell': 1145, 'dx': 48, 'px': 13
+            }, 'distance': 87.69005017674466, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        },
+        {'marker': {'i': 787, 'icon': '👹', 'type': 'hill-monsters', 'x': 555.01, 'y': 231.03, 'cell': 1010, 'dy': 54, 'px': 13
+            }, 'distance': 87.81059731034746, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 181, 'icon': '💎', 'type': 'gem-mines', 'x': 604.15, 'y': 401.58, 'cell': 2855, 'dx': 48, 'px': 13
+            }, 'distance': 89.67880964865667, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        },
+        {'marker': {'i': 1093, 'icon': '🐐', 'type': 'giant goat heard', 'x': 510.96, 'y': 375.35, 'cell': 2567, 'dy': 54, 'px': 13
+            }, 'distance': 90.61712917544897, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1019, 'icon': '🕷️', 'type': 'spiders', 'x': 667, 'y': 280.68, 'cell': 1555, 'dy': 54, 'px': 13
+            }, 'distance': 94.63842982636599, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 140, 'icon': '⛏️', 'type': 'mines', 'x': 486, 'y': 290.6, 'cell': 1538, 'dx': 48, 'px': 13
+            }, 'distance': 96.27569786815361, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 1017, 'icon': '🕷️', 'type': 'spiders', 'x': 542.89, 'y': 406, 'cell': 2851, 'dy': 54, 'px': 13
+            }, 'distance': 97.43809368003872, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 27, 'icon': '♨️', 'type': 'hot-springs', 'x': 665.17, 'y': 361.29, 'cell': 2428, 'dy': 52
+            }, 'distance': 97.58069993600166, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 813, 'icon': '👹', 'type': 'hill-monsters', 'x': 594.08, 'y': 218.93, 'cell': 881, 'dy': 54, 'px': 13
+            }, 'distance': 97.74032586399535, 'stories': [
+                {'description': 'Nobles want everything'
+                }
+            ]
+        },
+        {'marker': {'i': 221, 'icon': '💎', 'type': 'gem-mines', 'x': 676.67, 'y': 319.7, 'cell': 1980, 'dx': 48, 'px': 13
+            }, 'distance': 97.76026237689827, 'stories': [
+                {'description': 'The Magi want this'
+                }
+            ]
+        }
+    ]
+}

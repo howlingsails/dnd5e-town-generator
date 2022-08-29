@@ -1,0 +1,67 @@
+`<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="/static/style.css" />
+
+  <body>
+    <div>
+      <h3>Burg: {{burg.name}}</h3>
+      <li></li>
+      <h4>Lead By</h4>
+      <div class="a-burg">
+        <div>Leader: {{burg.leader.name}} a {{burg.leader.klass}}</div>
+        <div>a {{burg.leader.description}}</div>
+        <div>Ideal: {{burg.leader.ideal}}</div>
+        <div>trait: {{burg.leader.trait}}</div>
+        <div>Mannerism: {{burg.leader.mannerism}}</div>
+        <div>Talent: {{burg.leader.talent}}</div>
+        <div>Specialty: {{burg.leader.specialty}}</div>
+        <div>Background: {{burg.leader.background}}</div>
+        <div>Flaw: {{burg.leader.flaw}}</div>
+      </div>
+      <h4>Details</h4>
+      <div>
+        <article class="burgSummary">
+            <content class="resourceSummary">
+            <div>
+                Resources: {% for resource in burg.domain.resources %} {{ resource
+                }}, {% endfor%}
+            </div>
+            </content>
+            <content class="industrySummary">
+            <div>
+                Industries: {{ burg.domain.totalIndustriesPeople}} 
+            </div>
+            <div> 
+            {% for industry in burg.domain.demographics.industries %}
+                {{industry.industry }}({{industry.count}}), 
+            {% endfor%}
+                
+            </div>
+            </content>
+            <content class="markerSummary">
+              </content>
+          </article>
+          <article class="markerAdventureBuilder">
+            {% for closeMarker in burg.closeMarkers %}
+              <div class="markerAdventure">
+                <div class="markerHeader">
+                  {{closeMarker.marker.icon}} - {{closeMarker.marker.type}} - {{closeMarker.distance | int}} miles away
+                </div>
+                {% for story in closeMarker.stories %}
+                  <div class="markerStories">
+                    {{story.description}} -
+                  </div> 
+                {% endfor %}
+              </div>
+            {% endfor%}
+           </article>
+      </div>
+    </div>
+  </body>
+</html>

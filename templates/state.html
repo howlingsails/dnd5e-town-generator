@@ -1,0 +1,83 @@
+`<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="/static/style.css" />
+
+  <body>
+    <div>
+      <h3>State: {{state.fullName}}</h3>
+      <h4>Lead By</h4>
+      <div class="a-states">
+        <div>Leader: {{state.leader.name}} a {{state.leader.klass}} ruling as a {{state.form}}</div>
+        <div>a {{state.leader.description}}</div>
+        <div>Ideal: {{state.leader.ideal}}</div>
+        <div>trait: {{state.leader.trait}}</div>
+        <div>Mannerism: {{state.leader.mannerism}}</div>
+        <div>Talent: {{state.leader.talent}}</div>
+        <div>Specialty: {{state.leader.specialty}}</div>
+        <div>Background: {{state.leader.background}}</div>
+        <div>Flaw: {{state.leader.flaw}}</div>
+      </div>
+      <h4>Burgs</h4>
+      <div class='burgSummaries'>
+        {% for burg in world.burgs %} 
+          {% if burg.state == state.i %}
+            <article class="burgSummary">
+              <content class="burgDetailLink">
+                <div>
+                  <a href="/world/{{world_name}}/burg/{{burg.i}}">{{burg.name}}</a>
+                  Popultation: {{burg.totalPopulation}}
+                  {% if burg.capital %}
+                  **** CAPITAL ****
+                  {% endif%}
+                </div>
+                <div>
+                  Leader: {{burg.leader}} Culture:
+                  {{world.cultures[burg.culture].name}}
+                </div>
+              </content>
+              <content class="resourceSummary">
+                <div>
+                  Resources: {% for resource in burg.domain.resources %} {{ resource
+                  }}, {% endfor%}
+                </div>
+              </content>
+              <content class="industrySummary">
+                <div>
+                  Industries: {{ burg.domain.totalIndustriesPeople}} 
+                </div>
+                <div> 
+                {% for industry in burg.domain.demographics.industries %}
+                  {{industry.industry }}({{industry.count}}), 
+                {% endfor%}
+                  
+                </div>
+              </content>
+            </article>
+            <br>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <h4>diplomacy</h4>
+      <ul>
+        {% for otherState in world.states %}
+        <li>
+          {% if otherState.culture %}
+          <a href="/world/{{world_name}}/state/{{otherState.i}}"
+            >{{otherState.fullName}}</a
+          >
+          - {{world.cultures[otherState.culture].name}} -
+          {{state.diplomacy[otherState.i]}} {% else %} {{otherState.fullName}} -
+          {{state.diplomacy[otherState.i]}} {% endif%}
+        </li>
+        {% endfor %}
+      </ul>
+      <br />
+    </div>
+  </body>
+</html>

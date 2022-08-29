@@ -4,4 +4,9 @@
         "titleBar.activeBackground": "#294542",
         "titleBar.activeForeground": "#FAFCFC"
     }
+    "prettier.printWidth": 180,
+    "python.defaultInterpreterPath": "/usr/local/bin/python3"
+    "python.analysis.extraPaths": [
+        "/usr/local/lib/python3.8/site-packages"
+    ]
 }
